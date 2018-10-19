@@ -1,0 +1,23 @@
+2018-10-19 
+-- 常用的语法
+search for repositories
+in:name	jquery in:name matches repositories with "jquery" in their name. https://github.com/search?q=jquery+in%3Aname&type=Repositories
+in:description	jquery in:name,description matches repositories with "jquery" in their name or description.
+in:readme	jquery in:readme matches repositories mentioning "jquery" in their README file.
+forks:>=205 matches repositories with at least 205 forks.
+stars:>=500 fork:true language:php matches repositories with the at least 500 stars, including forked ones, that are written in PHP.
+rails language:javascript matches repositories with the word "rails" that are written in JavaScript.
+topic:TOPIC	topic:jekyll matches repositories that have been classified with the topic "jekyll."
+language:javascript location:china
+
+
+%3A 代表 :
+%3D 代表 =
+
+自己总结
+https://github.com/search?q=mysql+in:name 按照名称
+https://github.com/search?q=forks:>100 按照分支量
+https://github.com/search?q=topic:mysql 按照主题
+https://github.com/search?q=language:sql 按照语言
+https://github.com/search?q=forks:>100+topic:mysql+fork:true+stars:>500 按照主题分支量和点赞量进行查询
+https://github.com/search?q=topic:mysql+forks:>100+stars:>=100
